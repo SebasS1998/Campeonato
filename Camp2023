@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resultados del Campeonato Deportivo</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    .category-title {
+      font-weight: bold;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Resultados del Campeonato Deportivo</h1>
+  
+  <h2 class="category-title">Fútbol Masculino</h2>
+  <table>
+    <tr>
+      <th>Equipo</th>
+      <th>Partidos Jugados</th>
+      <th>Partidos Ganados</th>
+      <th>Partidos Perdidos</th>
+      <th>Partidos Empatados</th>
+      <th>Goles a Favor</th>
+      <th>Goles en Contra</th>
+      <th>Diferencia de Goles</th>
+      <th>Total de Puntos</th>
+    </tr>
+    <!-- Filas de la tabla de posiciones de fútbol masculino -->
+  </table>
+  
+  <!-- Repite el mismo formato para las otras categorías: Fútbol Femenino, Baloncesto Masculino, Baloncesto Femenino, y Ecuavoley Masculino -->
+  
+  <h2 class="category-title">Ecuavoley Femenino</h2>
+  <table>
+    <tr>
+      <th>Equipo</th>
+      <th>Partidos Jugados</th>
+      <th>Partidos Ganados</th>
+      <th>Partidos Perdidos</th>
+      <th>Total de Puntos</th>
+    </tr>
+    <!-- Filas de la tabla de posiciones de ecuavoley femenino -->
+  </table>
+</body>
+</html>
